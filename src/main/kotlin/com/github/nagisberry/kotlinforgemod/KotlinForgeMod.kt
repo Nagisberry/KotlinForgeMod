@@ -1,4 +1,4 @@
-package com.example.examplemod
+package com.github.nagisberry.kotlinforgemod
 
 import com.mojang.logging.LogUtils
 import net.minecraft.world.level.block.Block
@@ -16,8 +16,8 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext
 import java.util.stream.Collectors
 
-@Mod("examplemod")
-class ExampleMod {
+@Mod("kotlinforgemod")
+class KotlinForgeMod {
 
     companion object {
         // Directly reference a slf4j logger
